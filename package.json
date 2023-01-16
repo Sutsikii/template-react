@@ -1,6 +1,6 @@
 {
-  "name": "sutui",
-  "version": "0.1.0",
+  "name": "create-sutui",
+  "version": "0.1.1",
   "description": "A react starter from Sutsiki",
   "bin": "./bin/cli.js",
   "dependencies": {
