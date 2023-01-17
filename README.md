@@ -1,6 +1,6 @@
 # SutUi    
 
-Projet de Librairie Ui 
+Template React
 
 ## Available Scripts
 
