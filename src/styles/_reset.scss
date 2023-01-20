@@ -1,3 +1,15 @@
-// Settings CSS 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
-@import './reset';
+ul {
+    list-style: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
