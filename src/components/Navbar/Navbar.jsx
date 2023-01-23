@@ -2,20 +2,22 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <navbar class="navbar">
+    <header>
+      <navbar class="navbar">
 
-      <a href="/" class="logo">Sutsiki</a>
+        <a href="/" class="logo">Sutsiki</a>
 
-      <div class="nav-links">
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Projet</a></li>
-          <li><a href="#">Infos</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Projet</a></li>
+            <li><a href="#">Infos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
 
-    </navbar>
+      </navbar>
+    </header>
   )
 }
 
