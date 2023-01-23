@@ -23,8 +23,20 @@ header{
     
             li{
                 margin: 0 20px;
+
+                a{
+                    transition: 100ms ease-in;
+
+                    &:hover{
+                        color:blue;
+                    }
+
+                    &.currentPath{
+                        color:blue;
+                    }
+                }
             }
-    
+
         }
     }
 }

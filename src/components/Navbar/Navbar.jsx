@@ -1,6 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+
+  const getLinkClass = ({ isActive }) => isActive ? 'currentPath' : '';
+
   return (
     <header>
       <navbar class="navbar">
@@ -9,10 +13,17 @@ const Navbar = () => {
 
         <div class="nav-links">
           <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Projet</a></li>
-            <li><a href="#">Infos</a></li>
-            <li><a href="#">Contact</a></li>
+
+            <li>
+              <NavLink to="/" className={getLinkClass}>Accueil
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/Contact" className={getLinkClass}>Contact
+              </NavLink>
+            </li>
+
           </ul>
         </div>
 
