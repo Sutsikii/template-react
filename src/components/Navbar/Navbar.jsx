@@ -5,6 +5,7 @@ const Navbar = () => {
     <navbar class="navbar">
 
       <a href="/" class="logo">Sutsiki</a>
+
       <div class="nav-links">
         <ul>
           <li><a href="#">Accueil</a></li>
@@ -13,8 +14,6 @@ const Navbar = () => {
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-
-      <header></header>
 
     </navbar>
   )

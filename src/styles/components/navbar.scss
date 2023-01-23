@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+
+    .logo{
+        font-size: 1.3rem;
+        margin-left: 10px;
+    }
+
+    .nav-links ul{
+
+        display: flex;
+        flex-direction: row;
+
+        li{
+            margin: 0 20px;
+        }
+
+    }
+}
