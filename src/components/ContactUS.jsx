@@ -59,17 +59,17 @@ export const ContactUs = () => {
     <form ref={form} onSubmit={sendEmail}>
         <span>
             <label className='animated'>Name</label>
-            <input type="text" name="user_name" />
+            <input type="text" name="user_name" required/>
         </span>
 
         <span>
             <label className='animated'>Email</label>
-            <input type="email" name="user_email" />
+            <input type="email" name="user_email" required/>
         </span>
 
         <span>
             <label className='animated'>Subject</label>
-            <input type="text" name="user_subject" />
+            <input type="text" name="user_subject" required/>
         </span>
 
             <label>Message</label>
