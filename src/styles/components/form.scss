@@ -1,12 +1,60 @@
 .image{
 
+    img{
+        height: auto;
+        width: 100%;
+    }
+
+    .headline {
+        position: absolute;
+        top: 3.4rem;
+        width: 50%;
+        text-align: center;
+        letter-spacing: 0.4rem;
+        text-transform: uppercase;
+    }      
+
 }
 
 .form{
 
+    background-color: rgb(255, 255, 255);
+    // height: 340px;
+    // width: 344px;
+    padding: 6%;
+    width: 50%;
+    overflow: hidden;
+
+    label{
+        padding: 14px;
+    }
+
     form{
         display: flex;
         flex-direction: column;
+    }
+
+    textarea{
+        resize: none;
+    }
+
+    input, textarea{
+        background: none;
+        border: none;
+        border-bottom: 2px solid black;
+        box-sizing: border-box;
+        outline: none;
+    }
+    
+    input[type=submit] {
+    background: #f37b56;
+    border: none;
+    color: #fff;
+    padding: 0 2rem;
+
+        &:hover{
+            cursor:pointer;
+        }
     }
 
 }

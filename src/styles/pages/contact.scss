@@ -1,8 +1,13 @@
 .form-page{
 
-    height: 98vh;
+    height: 21.25rem;
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 42.5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 
 }
