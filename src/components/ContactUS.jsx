@@ -46,9 +46,7 @@ export const ContactUs = () => {
 
     <div className='image'>
         <figure>
-            <picture>
                 <img src={guirlande} alt="" />
-            </picture>
         </figure>
         <div className='headline'>
             <h2>Sutsiki</h2>
@@ -75,7 +73,7 @@ export const ContactUs = () => {
         </span>
 
             <label>Message</label>
-            <textarea name="message" rows={6}/>
+            <textarea name="message" rows={9}/>
 
 
       <input type="submit" value="Send" />
