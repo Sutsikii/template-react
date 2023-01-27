@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
+import guirlande from '../images/components/Guirlande.jpg';
+ 
 export const ContactUs = () => {
   const form = useRef();
 
@@ -45,7 +47,7 @@ export const ContactUs = () => {
     <div className='image'>
         <figure>
             <picture>
-                <img src="//my-assets.netlify.com/codepen/dailyui-001/img.png" alt="" />
+                <img src={guirlande} alt="" />
             </picture>
         </figure>
         <div className='headline'>
@@ -73,7 +75,7 @@ export const ContactUs = () => {
         </span>
 
             <label>Message</label>
-            <textarea name="message" />
+            <textarea name="message" rows={6}/>
 
 
       <input type="submit" value="Send" />
