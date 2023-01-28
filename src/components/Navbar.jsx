@@ -9,7 +9,7 @@ const Navbar = () => {
     <header>
       <navbar class="navbar">
 
-        <NavLink to="/">Sutsiki</NavLink>
+        <NavLink to="/" className="logo">Sutsiki</NavLink>
 
         <div class="nav-links">
           <ul>
