@@ -48,7 +48,7 @@ export const ContactUs = () => {
 
     <div className='image'>
         <figure>
-                <img src={guirlande} alt="" />
+                <img src={guirlande} alt="Image de fond représentant des guirlandes lumineuses" />
         </figure>
         <div className='headline'>
             <h2>Sutsiki</h2>
@@ -60,7 +60,7 @@ export const ContactUs = () => {
 
     <form ref={form} onSubmit={sendEmail}>
         <span>
-            <label className='animated'>Name</label>
+            <label className='animated'>Nom</label>
             <input type="text" name="user_name" required/>
         </span>
 
@@ -70,15 +70,15 @@ export const ContactUs = () => {
         </span>
 
         <span>
-            <label className='animated'>Subject</label>
+            <label className='animated'>Sujet</label>
             <input type="text" name="user_subject" required/>
         </span>
 
             <label>Message</label>
-            <textarea name="message" rows={9}/>
+            <textarea name="message" rows={9} required/>
 
 
-      <input type="submit" value="Send" />
+      <input type="submit" value="Envoyer" />
     </form>
 
     </div>  
