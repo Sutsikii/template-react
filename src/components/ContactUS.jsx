@@ -12,11 +12,11 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs.sendForm(emailData.service_id, emailData.template_id, form.current, emailData.public_key)
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+      // .then((result) => {
+      //     console.log(result.text);
+      // }, (error) => {
+      //     console.log(error.text);
+      // });
   };
 
   useEffect(() => {
@@ -48,7 +48,7 @@ export const ContactUs = () => {
 
     <div className='image'>
         <figure>
-                <img src={guirlande} alt="Image de fond représentant des guirlandes lumineuses" />
+                <img src={guirlande} alt="Fond représentant des guirlandes lumineuses" />
         </figure>
         <div className='headline'>
             <h2>Sutsiki</h2>
