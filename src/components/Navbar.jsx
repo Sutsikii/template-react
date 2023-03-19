@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+export const Navbar = () => {
 
   const getLinkClass = ({ isActive }) => isActive ? 'currentPath' : '';
 
@@ -31,5 +31,3 @@ const Navbar = () => {
     </header>
   )
 }
-
-export default Navbar
